@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Country Study | About</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="About page with ties to the country, geography insight, and a reflective prompt." />
+  </head>
+  <body class="min-h-dvh bg-slate-50 text-slate-800">
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="flex h-16 items-center justify-between">
+          <a href="index.html" class="text-lg font-bold tracking-tight text-slate-900">Country Study</a>
+          <nav class="hidden md:block">
+            <ul class="flex items-center gap-6 text-sm font-medium">
+              <li><a class="hover:text-sky-700" href="index.html">Home</a></li>
+              <li><a class="hover:text-sky-700 text-sky-700" href="about.html">About</a></li>
+              <li class="relative group">
+                <button class="hover:text-sky-700">Earth Processes</button>
+                <ul class="absolute hidden group-hover:block bg-white border border-slate-200 shadow-lg rounded-md mt-2 w-80 p-2 text-sm">
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="maps-location-cartographers.html">Maps, Location, and Cartographers</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="plate-tectonics-earthquakes-volcanoes.html">Plate Tectonics, Earthquakes, and Volcanoes</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="weathering-mass-wasting-erosion.html">Weathering, Mass Wasting, and Erosion</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="fluvial-processes-oceans-coastlines.html">Fluvial Processes, Oceans, and Coastlines</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="climate-controls-biomes-climate-change.html">Climate Controls, Biomes, and Climate Change</a></li>
+                </ul>
+              </li>
+              <li><a class="hover:text-sky-700" href="references.html">References</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-4 sm:px-6 py-12">
+      <article class="prose prose-slate max-w-none">
+        <h1>About This Project</h1>
+        <p>Use this page to briefly explain your connection to the country you are researching and to reflect on geographic and spiritual insights.</p>
+
+        <h2>My Ties to the Country</h2>
+        <p>Share your personal ties here (e.g., heritage, family, mission service, travel, friends, language study, or academic interest). Keep it short but meaningful.</p>
+
+        <h2>Interesting Physical Geography</h2>
+        <p>Describe one interesting aspect of the country’s physical geography (e.g., a mountain range, a desert, a rift valley, unique coastlines, glacial features, karst terrain, major river system, or tectonic setting). Explain why it stands out.</p>
+
+        <h2>Reflection: Alma 30:44</h2>
+        <blockquote>
+          “All things denote there is a God; yea, even the earth, and all things that are upon the face of it, yea, and its motion, yea, and also all the planets which move in their regular form do witness that there is a Supreme Creator.” — Alma 30:44
+        </blockquote>
+        <p>How does the Earth testify of a Supreme Being and Creator? Offer a thoughtful response that connects specific physical processes or patterns you observe in your country (or globally) with your faith and understanding of divine design, order, and stewardship.</p>
+
+        <h2>Planned Media</h2>
+        <ul>
+          <li>Short video reflection (1–2 minutes)</li>
+          <li>A curated set of maps and satellite images</li>
+          <li>Links to reputable brief documentaries or podcasts</li>
+        </ul>
+      </article>
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 py-6 text-sm text-slate-600 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <p>&copy; <span id="year"></span> Country Study</p>
+        <nav class="flex gap-4">
+          <a class="hover:text-sky-700" href="about.html">About</a>
+          <a class="hover:text-sky-700" href="references.html">References</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+

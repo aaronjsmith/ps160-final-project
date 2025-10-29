@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Country Study | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="description" content="Home page for a Tailwind CSS static site about a selected country and its earth processes." />
+  </head>
+  <body class="min-h-dvh bg-slate-50 text-slate-800">
+    <header class="bg-white border-b border-slate-200 sticky top-0 z-50">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <div class="flex h-16 items-center justify-between">
+          <a href="index.html" class="text-lg font-bold tracking-tight text-slate-900">Country Study</a>
+          <nav class="hidden md:block">
+            <ul class="flex items-center gap-6 text-sm font-medium">
+              <li><a class="hover:text-sky-700 text-sky-700" href="index.html">Home</a></li>
+              <li><a class="hover:text-sky-700" href="about.html">About</a></li>
+              <li class="relative group">
+                <button class="hover:text-sky-700">Earth Processes</button>
+                <ul class="absolute hidden group-hover:block bg-white border border-slate-200 shadow-lg rounded-md mt-2 w-80 p-2 text-sm">
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="maps-location-cartographers.html">Maps, Location, and Cartographers</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="plate-tectonics-earthquakes-volcanoes.html">Plate Tectonics, Earthquakes, and Volcanoes</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="weathering-mass-wasting-erosion.html">Weathering, Mass Wasting, and Erosion</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="fluvial-processes-oceans-coastlines.html">Fluvial Processes, Oceans, and Coastlines</a></li>
+                  <li><a class="block rounded px-3 py-2 hover:bg-slate-100" href="climate-controls-biomes-climate-change.html">Climate Controls, Biomes, and Climate Change</a></li>
+                </ul>
+              </li>
+              <li><a class="hover:text-sky-700" href="references.html">References</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4 sm:px-6 py-10">
+      <section class="grid lg:grid-cols-2 gap-8 items-start">
+        <div>
+          <h1 class="text-3xl sm:text-4xl font-extrabold tracking-tight text-slate-900">Your Country Name</h1>
+          <p class="mt-4 text-lg leading-7 text-slate-700">Brief introduction to the country you are researching. Replace this text with historical, cultural, social, and economic context. Keep it concise and engaging for readers, highlighting key eras, major cultural elements, notable social attributes, and primary economic drivers.</p>
+          <ul class="mt-6 space-y-2 text-slate-700">
+            <li class="flex items-start gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sky-600"></span><span>History: Summarize formative periods, independence, and modern developments.</span></li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sky-600"></span><span>Culture: Languages, religions, arts, and traditions that shape identity.</span></li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sky-600"></span><span>Society: Demographics, education, health, urbanization, and quality of life.</span></li>
+            <li class="flex items-start gap-2"><span class="mt-1 h-1.5 w-1.5 rounded-full bg-sky-600"></span><span>Economy: Main industries, exports, and current opportunities/challenges.</span></li>
+          </ul>
+          <div class="mt-8 flex gap-3">
+            <a href="about.html" class="inline-flex items-center rounded-md bg-sky-600 px-4 py-2 text-white font-medium shadow hover:bg-sky-700">Learn more</a>
+            <a href="references.html" class="inline-flex items-center rounded-md bg-slate-200 px-4 py-2 text-slate-900 font-medium hover:bg-slate-300">References</a>
+          </div>
+        </div>
+        <div>
+          <figure class="overflow-hidden rounded-xl shadow border border-slate-200">
+            <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?q=80&w=1600&auto=format&fit=crop" alt="Representative view of the country" class="w-full h-80 object-cover" />
+            <figcaption class="px-4 py-3 text-sm text-slate-600">Replace with a photo of your chosen country and add a descriptive caption.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="mt-16">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900">Earth Processes Overview</h2>
+        <p class="mt-3 text-slate-700">Throughout the term, you will explore how physical geography influences life in your country. These pages will be updated weekly with research, visuals, and multimedia elements.</p>
+        <div class="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <a href="maps-location-cartographers.html" class="group block rounded-lg border border-slate-200 bg-white p-4 hover:shadow">
+            <h3 class="font-semibold text-slate-900 group-hover:text-sky-700">Maps, Location, and Cartographers</h3>
+            <p class="mt-1 text-sm text-slate-600">Placeholders for map images, GIS layers, and cartography notes.</p>
+          </a>
+          <a href="plate-tectonics-earthquakes-volcanoes.html" class="group block rounded-lg border border-slate-200 bg-white p-4 hover:shadow">
+            <h3 class="font-semibold text-slate-900 group-hover:text-sky-700">Plate Tectonics, Earthquakes, and Volcanoes</h3>
+            <p class="mt-1 text-sm text-slate-600">Tectonic setting, seismicity, and volcanic hazards.</p>
+          </a>
+          <a href="weathering-mass-wasting-erosion.html" class="group block rounded-lg border border-slate-200 bg-white p-4 hover:shadow">
+            <h3 class="font-semibold text-slate-900 group-hover:text-sky-700">Weathering, Mass Wasting, and Erosion</h3>
+            <p class="mt-1 text-sm text-slate-600">Rock weathering, slope stability, and erosion patterns.</p>
+          </a>
+          <a href="fluvial-processes-oceans-coastlines.html" class="group block rounded-lg border border-slate-200 bg-white p-4 hover:shadow">
+            <h3 class="font-semibold text-slate-900 group-hover:text-sky-700">Fluvial Processes, Oceans, and Coastlines</h3>
+            <p class="mt-1 text-sm text-slate-600">Rivers, coasts, sediment transport, and ocean dynamics.</p>
+          </a>
+          <a href="climate-controls-biomes-climate-change.html" class="group block rounded-lg border border-slate-200 bg-white p-4 hover:shadow">
+            <h3 class="font-semibold text-slate-900 group-hover:text-sky-700">Climate Controls, Biomes, and Climate Change</h3>
+            <p class="mt-1 text-sm text-slate-600">Atmospheric circulation, ecosystems, and observed changes.</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="mt-16">
+        <h2 class="text-2xl font-bold tracking-tight text-slate-900">Media & Data Placeholders</h2>
+        <div class="mt-6 grid lg:grid-cols-2 gap-6">
+          <div class="rounded-lg border border-slate-200 bg-white p-4">
+            <h3 class="font-semibold">Chart Placeholder</h3>
+            <div class="mt-3 h-40 rounded bg-slate-100 grid place-items-center text-slate-500 text-sm">Insert chart image or embed here</div>
+          </div>
+          <div class="rounded-lg border border-slate-200 bg-white p-4">
+            <h3 class="font-semibold">Map/Satellite Placeholder</h3>
+            <div class="mt-3 h-40 rounded bg-slate-100 grid place-items-center text-slate-500 text-sm">Insert map or satellite imagery here</div>
+          </div>
+          <div class="rounded-lg border border-slate-200 bg-white p-4">
+            <h3 class="font-semibold">Video Placeholder</h3>
+            <div class="mt-3 aspect-video w-full rounded bg-slate-100 grid place-items-center text-slate-500 text-sm">Embed YouTube or self-recorded clip</div>
+          </div>
+          <div class="rounded-lg border border-slate-200 bg-white p-4">
+            <h3 class="font-semibold">Podcast/Link Placeholder</h3>
+            <div class="mt-3 h-40 rounded bg-slate-100 grid place-items-center text-slate-500 text-sm">Insert podcast link or document</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-16 border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 py-6 text-sm text-slate-600 flex flex-col sm:flex-row items-center justify-between gap-2">
+        <p>&copy; <span id="year"></span> Country Study</p>
+        <nav class="flex gap-4">
+          <a class="hover:text-sky-700" href="about.html">About</a>
+          <a class="hover:text-sky-700" href="references.html">References</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+  </html>
+
+
