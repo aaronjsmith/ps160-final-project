@@ -1,0 +1,115 @@
+{
+  "about": {
+    "title": "About This Project",
+    "intro": "Use this page to briefly explain your connection to the state you are researching (Arizona) and to reflect on geographic and spiritual insights.",
+    "sections": [
+      {
+        "heading": "My Ties to Arizona",
+        "body": "I grew up in Arizona as a kid. My great-great-grandfather, Lot Smith, was asked by Brigham Young to help settle Sunset Valley near Mormon Lake."
+      },
+      {
+        "heading": "Interesting Physical Geography",
+        "body": "Describe one interesting aspect of Arizona’s physical geography (e.g., the Grand Canyon, Sonoran Desert, Colorado Plateau, Mogollon Rim, or San Francisco Peaks). Explain why it stands out."
+      },
+      {
+        "heading": "Reflection: Alma 30:44",
+        "quote": "All things denote there is a God; yea, even the earth, and all things that are upon the face of it, yea, and its motion, yea, and also all the planets which move in their regular form do witness that there is a Supreme Creator. — Alma 30:44",
+        "body": "How does the Earth testify of a Supreme Being and Creator? Offer a thoughtful response that connects specific physical processes or patterns you observe in Arizona (or more broadly) with your faith and understanding of divine design, order, and stewardship."
+      },
+      {
+        "heading": "Planned Media",
+        "list": [
+          "Short video reflection (1–2 minutes)",
+          "A curated set of maps and satellite images",
+          "Links to reputable brief documentaries or podcasts"
+        ]
+      }
+    ]
+  }
+  ,
+  "home": {
+    "title": "Arizona",
+    "intro": "Brief introduction to the state of Arizona. Replace this text with historical, cultural, social, and economic context. Keep it concise and engaging for readers, highlighting key eras, major cultural elements, notable social attributes, and primary economic drivers.",
+    "bullets": [
+      "History: Summarize formative periods, statehood, and modern developments.",
+      "Culture: Languages, religions, arts, and traditions that shape identity.",
+      "Society: Demographics, education, health, urbanization, and quality of life.",
+      "Economy: Main industries, exports, and current opportunities/challenges."
+    ],
+    "imageCaption": "Replace with a photo of Arizona and add a descriptive caption.",
+    "sections": [
+      {
+        "heading": "Earth Processes Overview",
+        "body": "Throughout the term, you will explore how physical geography influences life in Arizona. These pages will be updated weekly with research, visuals, and multimedia elements."
+      },
+      {
+        "heading": "Media & Data Placeholders"
+      }
+    ]
+  },
+  "maps": {
+    "title": "Maps, Location, and Cartographers",
+    "intro": "Placeholders for week-by-week research. Replace each box with maps, GIS layers, cartographic analysis, and notes relevant to Arizona.",
+    "sections": [
+      { "heading": "Week 1" },
+      { "heading": "Week 2" },
+      { "heading": "Week 3" }
+    ]
+  },
+  "tectonics": {
+    "title": "Plate Tectonics, Earthquakes, and Volcanoes",
+    "intro": "Placeholders for tectonic setting, seismicity maps, volcanic features, and hazards specific to Arizona and the surrounding region.",
+    "sections": [
+      { "heading": "Tectonic Plates" },
+      { "heading": "Earthquake Activity" },
+      { "heading": "Volcanoes" },
+      { "heading": "Risk & Preparedness" }
+    ]
+  },
+  "weathering": {
+    "title": "Weathering, Mass Wasting, and Erosion",
+    "intro": "Placeholders for physical and chemical weathering examples, landslide inventory, and erosion/transport/deposition features relevant to Arizona.",
+    "sections": [
+      { "heading": "Weathering" },
+      { "heading": "Mass Wasting" },
+      { "heading": "Erosion" },
+      { "heading": "Deposition" }
+    ]
+  },
+  "fluvial": {
+    "title": "Fluvial Processes, Oceans, and Coastlines",
+    "intro": "Placeholders for river systems, floodplains, and ocean/climate interactions as they affect Arizona and its watersheds.",
+    "sections": [
+      { "heading": "Rivers & Drainage" },
+      { "heading": "Flooding" },
+      { "heading": "Coasts" },
+      { "heading": "Oceans" }
+    ]
+  },
+  "climate": {
+    "title": "Climate Controls, Biomes, and Climate Change",
+    "intro": "Placeholders for atmospheric circulation, topographic influences, biomes/ecoregions, and historical/observed climate change impacts within Arizona.",
+    "sections": [
+      { "heading": "Climate Controls" },
+      { "heading": "Biomes" },
+      { "heading": "Observed Changes" },
+      { "heading": "Adaptation & Policy" }
+    ]
+  },
+  "references": {
+    "title": "References",
+    "intro": "List your sources in alphabetized APA format. Replace the examples with your own references weekly.",
+    "exampleEntries": [
+      "Author, A. A. (Year). Title of article. Journal Name, Volume(Issue), pages. https://doi.org/xx.xxxx/xxxxx",
+      "Organization Name. (Year). Title of report. Publisher. URL",
+      "Author, B. B. (Year). Title of book. Publisher."
+    ],
+    "notes": [
+      "Alphabetize by author surname or organization name.",
+      "Use hanging indents when you paste into a document editor.",
+      "Include DOIs or stable URLs where available."
+    ]
+  }
+}
+
+
