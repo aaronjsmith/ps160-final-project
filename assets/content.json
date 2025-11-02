@@ -25,17 +25,13 @@
         ]
       }
     ]
-  }
-  ,
+  },
   "home": {
     "title": "Arizona",
-    "intro": "Arizona is a state in the southwestern United States. It is mostly dessert, and has a 
-    population of 7.4 million people. Its has the largest canyon in the world, the Grand Canyon.
-    ,
-    ",
+    "intro": "Arizona is a state in the southwestern United States. It is mostly desert, and has a population of 7.4 million people. It has the largest canyon in the world, the Grand Canyon.",
     "bullets": [
       "History: Summarize formative periods, statehood, and modern developments.",
-      "Culture: Arizona is home to the Navajo, Hopi and Apache Nations, ",
+      "Culture: Arizona is home to the Navajo, Hopi and Apache Nations.",
       "Society: Phoenix, Tucson, and Flagstaff are the three largest cities in Arizona.",
       "Economy: Mining, agriculture, datacenters, and tourism."
     ],
